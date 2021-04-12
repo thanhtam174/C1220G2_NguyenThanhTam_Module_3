@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .col-1 {
+            width: 8.33%;
+        }
+
+        .col-2 {
+            width: 16.66%;
+        }
+
+        .col-3 {
+            width: 25%;
+        }
+
+        .col-4 {
+            width: 33.33%;
+        }
+
+        .col-5 {
+            width: 41.66%;
+        }
+
+        .col-6 {
+            width: 50%;
+        }
+
+        .col-7 {
+            width: 58.33%;
+        }
+
+        .col-8 {
+            width: 66.66%;
+        }
+
+        .col-9 {
+            width: 75%;
+        }
+
+        .col-10 {
+            width: 83.33%;
+        }
+
+        .col-11 {
+            width: 91.66%;
+        }
+
+        .col-12 {
+            width: 100%;
+        }
+
+        [class*="col-"] {
+            float: left;
+            padding: 5px;
+        }
+
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        body {
+            font-family: Arial, Tahoma;
+            background-color: #CDCDCD
+        }
+
+        #menu {
+            padding: 0;
+            margin: 0;
+            background-color: #000000;
+            position: sticky;
+            top: 0;
+            left: 0;
+            right: 0;
+        }
+
+        #menu ul, #menu li {
+            padding: 0;
+            margin: 0;
+        }
+
+        #menu li {
+            position: relative;
+            float: left;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        #menu li a {
+            display: block;
+            text-decoration: none;
+            text-align: center;
+            line-height: 30px;
+            background-color: black;
+            color: white;
+        }
+
+        #menu ul ul li a {
+            width: 150px;
+            text-align: left;
+            padding-left: 10px;
+        }
+
+        #menu li a:hover {
+            background-color: red;
+        }
+
+        #menu ul ul {
+            position: absolute;
+            top: 30px;
+            visibility: hidden;
+        }
+
+        #menu ul li:hover ul {
+            visibility: visible;
+        }
+
+        .footer {
+            padding: 0;
+            margin: 0;
+            text-align: center;
+            vertical-align: middle;
+            background-color: black;
+            color: white;
+            /*position: fixed;*/
+            /*bottom: 0;*/
+            /*left: 0;*/
+            /*right: 0;*/
+        }
+        
+        @media only screen and (max-width: 768px){
+            [class*="col-"] {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="row" id="menu">
+    <ul>
+        <li class="col-1"><a href="">Logo</a></li>
+        <li class="col-1">
+            <a href="">Home</a>
+            <ul>
+                <li><a href="">Link</a></li>
+                <li><a href="">Link</a></li>
+                <li><a href="">Link</a></li>
+            </ul>
+        </li>
+        <li class="col-1"><a href="">About</a></li>
+        <li class="col-1"><a href="">Project</a></li>
+        <li class="col-1"><a href="">Contact</a></li>
+        <li class="col-6">c</li>
+        <li class="col-1"><a href="">Login</a></li>
+    </ul>
+</div>
+<div class="row">
+    <div class="col-3">
+    </div>
+    <div class="col-6" style="background-color: white">
+        <h1>Welcome</h1>
+        <p>
+            CSS is the language we use to style an HTML document.
+            CSS describes how HTML elements should be displayed.
+            This tutorial will teach you CSS from basic to advanced.
+            This CSS tutorial contains hundreds of CSS examples.
+            With our online editor, you can edit the CSS, and click on a button to view the result.
+        </p>
+        <p>
+            CSS is the language we use to style an HTML document.
+            CSS describes how HTML elements should be displayed.
+            This tutorial will teach you CSS from basic to advanced.
+            This CSS tutorial contains hundreds of CSS examples.
+            With our online editor, you can edit the CSS, and click on a button to view the result.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi architecto, aspernatur aut consequatur culpa
+            doloremque ducimus eaque explicabo fuga illo illum incidunt iusto magni minus nostrum odit officia sit
+            temporibus.
+        </p>
+        <p>
+            The English Wikipedia was the first Wikipedia edition and has remained the largest. It has pioneered many
+            ideas as
+            conventions, policies or features which were later adopted by Wikipedia editions in some of the other
+            languages.
+            These ideas include "featured articles", the neutral-point-of-view policy, navigation templates,
+            the sorting of short "stub" articles into sub-categories, dispute resolution mechanisms such as mediation
+            and arbitration,[10] and weekly collaborations.
+
+            The English Wikipedia has adopted features from Wikipedias in other languages. These features include
+            verified
+            revisions from the German Wikipedia and town population-lookup templates from the Dutch Wikipedia.
+
+            Although the English Wikipedia stores images and audio files, as well as text files, many of the images have
+            been moved to Wikimedia Commons with the same name, as passed-through files. However, the English Wikipedia
+            also
+            has fair-use images and audio/video files (with copyright restrictions), most of which are not allowed on
+            Commons.
+
+            Many of the most active participants in the Wikimedia Foundation, and the developers of the MediaWiki
+            software
+            that powers Wikipedia, are English-speaking users.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam cum cumque delectus eveniet fugiat in minima
+            natus officia, perspiciatis, quae qui reiciendis tempora voluptate. Dolorem exercitationem inventore minus porro quidem.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam cum cumque delectus eveniet fugiat in minima
+            natus officia, perspiciatis, quae qui reiciendis tempora voluptate. Dolorem exercitationem inventore minus porro quidem.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam cum cumque delectus eveniet fugiat in minima
+            natus officia, perspiciatis, quae qui reiciendis tempora voluptate. Dolorem exercitationem inventore minus porro quidem.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam cum cumque delectus eveniet fugiat in minima
+            natus officia, perspiciatis, quae qui reiciendis tempora voluptate. Dolorem exercitationem inventore minus porro quidem.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam cum cumque delectus eveniet fugiat in minima
+            natus officia, perspiciatis, quae qui reiciendis tempora voluptate. Dolorem exercitationem inventore minus porro quidem.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam cum cumque delectus eveniet fugiat in minima
+            natus officia, perspiciatis, quae qui reiciendis tempora voluptate. Dolorem exercitationem inventore minus porro quidem.
+        </p>
+    </div>
+    <div class="col-3">
+    </div>
+</div>
+<div class="row footer">
+    <p>@copy right</p>
+</div>
+
+</body>
+</html>
