@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="786b3712-222f-43c9-b78d-a0b81a4260ec" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../_14_dependency_managerment/exercises/gradle/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_14_dependency_managerment/exercises/gradle/src/main/java/controller/UserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_14_dependency_managerment/exercises/gradle/src/main/java/model/bean/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_14_dependency_managerment/exercises/gradle/src/main/java/model/responsitory/UserReponsitory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_14_dependency_managerment/exercises/gradle/src/main/java/model/responsitory/impl/UserReponsitoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_14_dependency_managerment/exercises/gradle/src/main/java/model/sevice/UserSevice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_14_dependency_managerment/exercises/gradle/src/main/java/model/sevice/impl/UserSeviceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_14_dependency_managerment/exercises/gradle/src/main/webapp/user/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_14_dependency_managerment/exercises/gradle/src/main/webapp/user/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_14_dependency_managerment/exercises/gradle/src/main/webapp/user/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/module3-furama-managerment-web/src/main/webapp/bootstrap-4.6.0-dist/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/module3-furama-managerment-web/src/main/webapp/bootstrap-4.6.0-dist/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/module3-furama-managerment-web/src/main/webapp/bootstrap-4.6.0-dist/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/module3-furama-managerment-web/src/main/webapp/bootstrap-4.6.0-dist/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/module3-furama-managerment-web/src/main/webapp/bootstrap-4.6.0-dist/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/module3-furama-managerment-web/src/main/webapp/bootstrap-4.6.0-dist/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/module3-furama-managerment-web/src/main/webapp/bootstrap-4.6.0-dist/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/module3-furama-managerment-web/src/main/webapp/bootstrap-4.6.0-dist/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/module3-furama-managerment-web/src/main/webapp/bootstrap-4.6.0-dist/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/module3-furama-managerment-web/src/main/webapp/bootstrap-4.6.0-dist/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/module3-furama-managerment-web/src/main/webapp/bootstrap-4.6.0-dist/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/module3-furama-managerment-web/src/main/webapp/bootstrap-4.6.0-dist/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/module3-furama-managerment-web/src/main/webapp/bootstrap-4.6.0-dist/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/module3-furama-managerment-web/src/main/webapp/bootstrap-4.6.0-dist/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/module3-furama-managerment-web/src/main/webapp/bootstrap-4.6.0-dist/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/module3-furama-managerment-web/src/main/webapp/bootstrap-4.6.0-dist/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/module3-furama-managerment-web/src/main/webapp/bootstrap-4.6.0-dist/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/module3-furama-managerment-web/src/main/webapp/bootstrap-4.6.0-dist/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/module3-furama-managerment-web/src/main/webapp/bootstrap-4.6.0-dist/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/module3-furama-managerment-web/src/main/webapp/bootstrap-4.6.0-dist/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/module3-furama-managerment-web/src/main/webapp/bootstrap-4.6.0-dist/js/jquery-3.6.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/module3-furama-managerment-web/src/main/webapp/home.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1rCKQSZXBqX19JKFwGyrfu8ANUa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="786b3712-222f-43c9-b78d-a0b81a4260ec" name="Default Changelist" comment="" />
+      <created>1618474614893</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1618474614893</updated>
+      <workItem from="1618474616125" duration="13000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+</project>
